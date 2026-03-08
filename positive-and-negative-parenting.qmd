@@ -1,6 +1,6 @@
 ---
-title: "Positive Parenting, Negative Parenting, and Child Development Outcomes" 
-subtitle: "Variation, Commonality and Possible Universals Across Multiple Countries"
+title: "We Are Different And We Are Similar"
+subtitle: "Variation, Commonality and Possible Universals in Positive Parenting, Negative Parenting, and Child Development Outcomes" 
 author: 
   - name: "Andy Grogan-Kaylor"
     url: https://agrogan1.github.io/
@@ -14,10 +14,9 @@ format:
     css: positive-and-negative-parenting.css
   poster-typst: 
     size: "48x36"
-    font-size: 48
     poster-authors: "Andrew Grogan-Kaylor, Julie Ma, Yoonsun Han, Kaitlin Ward"
-    departments: "University of Michigan"
-    institution-logo: "UM.png"
+    departments: "University of Michigan And Seoul National University"
+    institution-logo: "./images/UM.png"
     footer-text: "APS Barcelona 2026"
     footer-url: "https://www.umich.edu"
     footer-emails: "agrogan@umich.edu"
@@ -340,7 +339,34 @@ Verbal reasoning (78%) and shouting (64%) are the most common parental disciplin
 
 # Discussion
 
-abcdefg
+```{r}
+#| echo: false
+
+library(qrcode)
+
+code <- qr_code("https://globalfamilies.quarto.pub/global-families-project/")
+
+# plot(code, foreground = "#9A3324")
+
+generate_svg(
+  code,
+  "qrcode.svg",
+  size = 300,
+  foreground = "#9A3324",
+  background = "white",
+  show = interactive())
+
+generate_svg(
+  code,
+  "qrcode2.svg",
+  size = 300,
+  foreground = "#FFCB05",
+  background = "#00274C",
+  show = interactive())
+
+```
+
+![Global Families Project](qrcode2.svg)
 
 ::: {.content-visible when-format="revealjs"}
 # References
