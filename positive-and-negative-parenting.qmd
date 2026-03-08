@@ -12,8 +12,13 @@ format:
     theme: yeti
     lightbox: true
     css: positive-and-negative-parenting.css
+  pdf: 
+    toc: true
+    number-sections: true
+    output-file: positive-and-negative-parenting.pdf
   poster-typst: 
     size: "48x36"
+    output-file: positive-and-negative-parenting-poster.pdf
     poster-authors: "Andrew Grogan-Kaylor, Julie Ma, Yoonsun Han, Kaitlin Ward"
     departments: "University of Michigan And Seoul National University"
     institution-logo: "./images/UM.png"
@@ -354,7 +359,9 @@ Verbal reasoning (78%) and shouting (64%) are the most common parental disciplin
 # Questions 
 :::
 
+::: {.content-visible when-format="html"}
 # Discussion
+:::
 
 ```{r}
 #| echo: false
@@ -383,7 +390,9 @@ generate_svg(
 
 ```
 
+::: {.content-hidden when-format="pdf"}
 ![Global Families Project](qrcode2.svg)
+:::
 
 ::: {.content-visible when-format="revealjs"}
 # References
