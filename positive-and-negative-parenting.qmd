@@ -24,6 +24,7 @@ format:
     keywords: ["parenting", "discipline", "child development"]
   revealjs: 
     theme: [default, theme.scss]
+    slide-level: 1
     lightbox: true
     scrollable: true
     controls: true

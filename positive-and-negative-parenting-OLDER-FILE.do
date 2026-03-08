@@ -12,7 +12,9 @@ label variable aggress "child aggression"
 
 describe d_*
 
-mixed aggress sex_selected age_selected d_* || country: d_*
+* mixed aggress sex_selected age_selected d_* || country: d_*
+
+meqrlogit aggress sex_selected age_selected d_* || country: d_*
 
 est store M1
 
