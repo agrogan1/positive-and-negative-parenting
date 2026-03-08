@@ -14,9 +14,15 @@ describe d_*
 
 * mixed aggress sex_selected age_selected d_* || country: d_*
 
+est store M1
+
 meqrlogit aggress sex_selected age_selected d_* || country: d_*
 
-est store M1
+est store M2
+
+* tables of estimates
+
+* mixed
 
 etable, estimates(M1) /// use these estimate(s)
 /* novarlabel */ /// variable names only; could use variable labels 
@@ -27,7 +33,22 @@ column(depvar) /// column is depvar
 title("Maximal Model of Parenting and Child Aggression Outcome") ///
 export("mytable.md", replace)
 
+* meqrlogit
+
+etable, estimates(M2) /// use these estimate(s)
+/* novarlabel */ /// variable names only; could use variable labels 
+cstat(_r_b) /// beta's only
+showeq /// show equation names
+showstars showstarsnote /// show stars and note
+column(depvar) /// column is depvar
+title("Maximal Model of Parenting and Child Aggression Outcome") ///
+export("mytable_meqrlogit.md", replace)
+
+* spaghetti plot
+
 spagplot aggress d_phys_spank, id(country) // spaghetti plot
+
+* random effects
 
 predict u*, reffects // predict random effects
 
