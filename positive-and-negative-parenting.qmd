@@ -328,11 +328,25 @@ Verbal reasoning (78%) and shouting (64%) are the most common parental disciplin
 
 # The Relationship of Parenting And Child Outcomes Shows Little Variation Across Countries
 
-# A Standard Spaghetti Plot
+## A Standard Spaghetti Plot
 
-# A Modified Spaghetti Plot
+## A Modified Spaghetti Plot
+
+![modified spaghetti plot](modified-spaghetti-plot.png)
 
 # Quantifying Diversity and Commonality in the Relationship of Parenting To Child Outcomes
+
+1. Regression slopes--when statistically significant--are all in the same direction, and of at least somewhat similar magnitude.
+2. The actual values of the $\text{var}(u_{kj})$ or $\text{range}(u_{kj})$ are small.
+
+# Implications {.smaller}
+
+> "My conception of the universal is that of a universal enriched by all that is particular, a universal enriched by every particular: the deepening and coexistence of all particulars." [@Cesaire1956] 
+
+* Associations of parental discipline with child outcomes are [very consistent across countries]{.fragment .highlight-red}. 
+* This may be helpful to international organizations (e.g. UNICEF, WHO) that are developing programs or interventions that are to be applied in multiple cultural settings. 
+* While cultural tailoring will always be necessary to some degree; [child development research can inform the foundations of widely applicable interventions]{.fragment .highlight-red}. 
+
 
 ::: {.content-visible when-format="html"}
 # Questions 
