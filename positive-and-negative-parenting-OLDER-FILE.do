@@ -12,9 +12,15 @@ label variable aggress "child aggression"
 
 describe d_*
 
-* mixed aggress sex_selected age_selected d_* || country: d_*
+* analysis
+
+* mixed
+
+mixed aggress sex_selected age_selected d_* || country: d_*
 
 est store M1
+
+* meqrlogit
 
 meqrlogit aggress sex_selected age_selected d_* || country: d_*
 
@@ -46,7 +52,13 @@ export("mytable_meqrlogit.md", replace)
 
 * spaghetti plot
 
-spagplot aggress d_phys_spank, id(country) // spaghetti plot
+spagplot aggress d_phys_spank, ///
+id(country) ///
+title("Spaghetti Plot of Aggression by Spanking") ///
+ytitle("Aggression") ///
+caption("Each line represents a country") // spaghetti plot
+
+graph export "spagplot.png", replace width(2000)
 
 * random effects
 

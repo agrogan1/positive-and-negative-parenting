@@ -330,6 +330,8 @@ Verbal reasoning (78%) and shouting (64%) are the most common parental disciplin
 
 ## A Standard Spaghetti Plot
 
+![a standard 'spaghetti' plot](spagplot.png)
+
 ## A Modified Spaghetti Plot
 
 ![modified spaghetti plot](modified-spaghetti-plot.png)
