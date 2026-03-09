@@ -123,9 +123,11 @@ library(rnaturalearth) # natural earth data
 
 # The Argument Of This Presentation
 
+::: {.incremental}
 * Families, parents and children experience an incredible [diversity of circumstances]{.fragment .highlight-red}.
 * Parents engage in [parenting behaviors]{.fragment .highlight-red} with consequent diversity, though with some surprising similarities.
 * The [associations]{.fragment .highlight-red} of parenting with child outcomes are surprisingly consistent.
+:::
 
 # Data {.smaller}
 
