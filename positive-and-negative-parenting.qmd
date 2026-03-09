@@ -85,10 +85,6 @@ library(rnaturalearth) # natural earth data
 - Press **☰** for *menu*.
 :::
 
-::: {.content-visible unless-format="html"}
-![positive parenting](positiveparenting.png)
-:::
-
 # Acknowledgements
 
 * Collaborators: 
@@ -108,14 +104,28 @@ library(rnaturalearth) # natural earth data
 * In a review of 50 years of literature on physical punishment, @Gershoff2016 connect physical punishment to poor mental health outcomes, and other poor outcomes over the life course. @Ward2023 examines the relationship of multiple forms of parental discipline to child outcomes.
 :::
 
+# Are We Similar? Are We Different?
+
+::: {layout-ncol=2}
+![positive parenting](positiveparenting.png)
+
+![countries in MICS data](MICS.png)
+:::
+
 # Both Universals and Variation Are Important {.smaller .scrollable}
 
 > "Despite the incredible diversity existing among and within human cultures, there are many phenomena that occur regularly in all known societies. These commonalities, or universals, while deriving in part from human nature, may also have specific social, cultural, and systemic sources. We need to develop a working understanding of these universals so that we might advance legitimate, empirically based human science set on [creating knowledge that is politically relevant to fostering real solutions to the problems that complicate human co-existence]{.fragment .highlight-red} in the Age of the Anthropocene." [@Antweiler2016]
 
 
-# Highlighting Commonalities May Promote Intergroup Attitudes and Solidarity {.smaller}
+# Highlighting Commonalities May Promote Intergroup Attitudes And Solidarity {.smaller}
 
 > "@Hanel2019 cite research suggesting that 'highlighting similarities between groups [improves interpersonal and intergroup attitudes]{.fragment .highlight-red}.' Others have argued that 'build[ing] bonds of commonality across our differences' might be an [impetus for social transformation]{.fragment .highlight-red} [@Hunt-Hendrix2024]."
+
+# The Argument Of This Presentation
+
+* Families, parents and children experience an incredible [diversity of circumstances]{.fragment .highlight-red}.
+* Parents engage in [parenting behaviors]{.fragment .highlight-red} with consequent diversity, though with some surprising similarities.
+* The [associations]{.fragment .highlight-red} of parenting with child outcomes are surprisingly consistent.
 
 # Data {.smaller}
 
@@ -345,6 +355,12 @@ Verbal reasoning (78%) and shouting (64%) are the most common parental disciplin
 
 1. Regression slopes--when statistically significant--are all in the same direction, and of at least somewhat similar magnitude.
 2. The actual values of the $\text{var}(u_{kj})$ or $\text{range}(u_{kj})$ are small.
+
+# The Argument Of This Presentation Revisited
+
+* Families, parents and children experience an incredible [diversity of circumstances]{.fragment .highlight-red}.
+* Parents engage in [parenting behaviors]{.fragment .highlight-red} with consequent diversity, though with some surprising similarities.
+* The [associations]{.fragment .highlight-red} of parenting with child outcomes are surprisingly consistent.
 
 # Implications {.smaller}
 
