@@ -2,7 +2,7 @@
 
 clear all
 
-cd "/Users/agrogan/Desktop/GitHub/closeread/positive-and-negative-parenting"
+cd "/Users/agrogan/Desktop/GitHub/positive-and-negative-parenting"
 
 use "/Users/agrogan/Library/CloudStorage/Dropbox-UniversityofMichigan/Andrew Grogan-Kaylor/MICS/merging MICS and World Bank WDI/MICS_R15_Oct2023.dta"
 
