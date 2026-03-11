@@ -1,6 +1,6 @@
 ---
 title: "We Are Different And We Are Similar"
-subtitle: "Variation, Commonality and Possible Universals in Positive Parenting, Negative Parenting, and Child Development Outcomes" 
+subtitle: "Universals, Commonality, Diversity and Variation In Parenting and Child Development" 
 author: 
   - name: "Andy Grogan-Kaylor"
     url: https://agrogan1.github.io/
