@@ -22,7 +22,7 @@ est store M1
 
 * meqrlogit
 
-meqrlogit aggress sex_selected age_selected d_* || country: d_*
+meqrlogit aggress sex_selected age_selected d_* || country: d_*, or
 
 est store M2
 
