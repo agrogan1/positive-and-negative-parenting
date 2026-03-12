@@ -358,11 +358,22 @@ Verbal reasoning (78%) and shouting (64%) are the most common parental disciplin
 2. The actual values of the $\text{var}(u_{kj})$ or $\text{range}(u_{kj})$ are small.
 
 ::: {.content-visible when-format="html"}
-# The Argument Of This Presentation Revisited
+# The Argument Of This Presentation Revisited {.smaller}
+:::: {.columns}
 
+::: {.column width="60%"}
 * Families, parents and children experience an incredible [diversity of circumstances]{.fragment .highlight-red}.
 * Parents engage in [parenting behaviors]{.fragment .highlight-red} with consequent diversity, though with some surprising similarities.
 * The [associations]{.fragment .highlight-red} of parenting with child outcomes are surprisingly consistent.
+:::
+
+::: {.column width="40%"}
+![positive parenting](positiveparenting-cover.png)
+:::
+
+::::
+
+
 :::
 
 # Implications {.smaller}
