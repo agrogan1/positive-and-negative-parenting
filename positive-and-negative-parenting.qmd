@@ -130,7 +130,7 @@ library(rnaturalearth) # natural earth data
 
 # Data {.smaller}
 
-MICS data collected by UNICEF from Low and Middle Income Countries (LMIC) around the world. <mark>$N = 224,632 \text{ families}; N_{countries} = 60$</mark>
+MICS data collected by UNICEF from Low and Middle Income Countries (LMIC) around the world. $N = 224,632 \text{ families}; N_{countries} = 60$
 
 ```{r}
 #| output: false
@@ -346,11 +346,11 @@ Verbal reasoning (78%) and shouting (64%) are the most common parental disciplin
 
 ## A Standard Spaghetti Plot
 
-![a standard 'spaghetti' plot](spagplot.png)
+![a standard 'spaghetti' plot](spagplot-explain.png)
 
 ## A Modified Spaghetti Plot
 
-![modified spaghetti plot](modified-spaghetti-plot.png)
+![modified spaghetti plot](explain-spaghetti-plot.png)
 
 # Quantifying Diversity and Commonality in the Relationship of Parenting To Child Outcomes
 

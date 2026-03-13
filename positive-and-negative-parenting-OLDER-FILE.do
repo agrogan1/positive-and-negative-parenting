@@ -52,6 +52,8 @@ export("mytable_meqrlogit.md", replace)
 
 * spaghetti plot
 
+* spanking
+
 spagplot aggress d_phys_spank, ///
 id(country) ///
 title("Spaghetti Plot of Aggression by Spanking") ///
@@ -59,6 +61,17 @@ ytitle("Aggression") ///
 caption("Each line represents a country") // spaghetti plot
 
 graph export "spagplot.png", replace width(2000)
+
+* verbal reasoning
+
+spagplot aggress d_nvd_explained, ///
+id(country) ///
+title("Spaghetti Plot of Aggression by Verbal Reasoning") ///
+ytitle("Aggression") ///
+caption("Each line represents a country") ///
+scheme(s1color) // spaghetti plot
+
+graph export "spagplot-explain.png", replace width(2000)
 
 * random effects
 
