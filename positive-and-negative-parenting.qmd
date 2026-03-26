@@ -47,6 +47,7 @@ format:
     mobile-view-distance: 10
     output-file: positive-and-negative-parenting-revealjs.html
 bibliography: positive-and-negative-parenting.bib
+csl: apa.csl
 from: markdown+emoji
 ---
 
@@ -383,12 +384,14 @@ Verbal reasoning (78%) and shouting (64%) are the most common parental disciplin
 > "My conception of the universal is that of a universal enriched by all that is particular, a universal enriched by every particular: the deepening and coexistence of all particulars." [@Cesaire1956] 
 
 * Associations of parental discipline with child outcomes are [very consistent across countries]{.fragment .highlight-red}. 
-* This may be helpful to international organizations (e.g. UNICEF, WHO) that are developing programs or interventions that are to be applied in multiple cultural settings. 
+* This [may be helpful]{.fragment .highlight-red} to international organizations (e.g. UNICEF, WHO) that are developing programs or interventions that are to be applied in multiple cultural settings. 
 * While cultural tailoring will always be necessary to some degree; [child development research can inform the foundations of widely applicable interventions]{.fragment .highlight-red}. 
 
 
 ::: {.content-visible when-format="html"}
 # Questions 
+
+![Global Families Project](qrcode2.svg)
 :::
 
 ::: {.content-visible when-format="html"}
