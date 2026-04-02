@@ -362,6 +362,7 @@ Verbal reasoning (78%) and shouting (64%) are the most common parental disciplin
 
 ::: {.content-visible when-format="html"}
 # The Argument Of This Presentation Revisited {.smaller}
+
 :::: {.columns}
 
 ::: {.column width="60%"}
@@ -393,6 +394,7 @@ Verbal reasoning (78%) and shouting (64%) are the most common parental disciplin
 ::: {.column width="40%"}
 ![countries in MICS data](MICS.png)
 :::
+::::
 
 ::: {.content-visible when-format="html"}
 # Questions 
@@ -436,7 +438,7 @@ generate_svg(
 :::
 
 ::: {.content-visible when-format="revealjs"}
-# References
+# References {.smaller}
 :::
 
 ::: {.content-visible when-format="pdf"}
