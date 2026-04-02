@@ -83,6 +83,7 @@ library(rnaturalearth) # natural earth data
 - Use the :arrow_left: :arrow_right: keys to move through the presentation.
 - Press *o* for *panel overview*.
 - Press **☰** for *menu*.
+- You may have to *scroll down* to see the entirety of some slides.
 :::
 
 # Acknowledgements
