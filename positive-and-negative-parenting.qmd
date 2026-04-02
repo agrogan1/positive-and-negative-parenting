@@ -12,9 +12,6 @@ format:
     theme: yeti
     lightbox: true
     css: positive-and-negative-parenting.css
-  pdf: 
-    toc: true
-    number-sections: true
   poster-typst: 
     size: "48x36"
     output-file: positive-and-negative-parenting-poster.pdf
@@ -26,6 +23,9 @@ format:
     footer-emails: "agrogan@umich.edu"
     footer-color: "FFCB05"
     keywords: ["parenting", "discipline", "child development"]
+  pdf: 
+    toc: true
+    number-sections: true
   revealjs: 
     theme: [default, theme.scss]
     slide-level: 1
