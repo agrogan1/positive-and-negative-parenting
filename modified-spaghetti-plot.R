@@ -14,7 +14,8 @@ reffects$spankbetaNEGATIVE <- ifelse(reffects$spankbeta <= 0,
                                      reffects$spankbeta, 
                                      NA)
 
-  
+# spanking
+
 ggplot(reffects,
        aes(color = country)) +
   geom_segment(aes(x = 0,
@@ -37,11 +38,36 @@ ggsave("modified-spaghetti-plot.png",
        height = 3)
 
 
+# explaining
+
 reffects$explainbeta <- -0.014 + reffects$u10
 
 explainnegative <- subset(reffects, subset = explainbeta < 0)
 
 explainpositive <- subset(reffects, subset = explainbeta >= 0)
+
+# traditional
+
+ggplot() +
+  geom_segment(data = reffects,
+               aes(x = 0,
+                   xend = 1,
+                   y = .325 + u12,
+                   yend = (.325 + u12 - 0.014 + u10) * 1), 
+               color = "grey") +
+  # scale_color_viridis_d(option = "turbo") +
+  labs(title = "A Traditional Spaghetti Plot",
+       x = "verbal reasoning",
+       y = "aggression",
+       caption = "every line is a country") +
+  theme_minimal() +
+  theme(legend.position = "none",
+        aspect.ratio = 1)
+
+ggsave("explain-spaghetti-plot0.png",
+       height = 5)
+
+# modified
 
 ggplot() +
   geom_segment(data = explainnegative,

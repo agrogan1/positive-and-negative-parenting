@@ -33,6 +33,21 @@ p.author {
   color: red;
 }
 
+/* Highlights only rows within the body of the table */
+/* W3Schools */
+tbody tr:hover {
+  background-color: #FFCCCB;
+  cursor: pointer; /* Optional: indicates the row is interactive */
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
 .center-xy {
   margin: 0;
   position: absolute;
@@ -41,3 +56,5 @@ p.author {
   -ms-transform: translateY(-50%), translateX(-50%);
   transform: translateY(-50%), translateX(-50%);
 }
+
+

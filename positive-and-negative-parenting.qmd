@@ -323,6 +323,8 @@ tribble(
   scale_color_viridis_d() +
   theme_minimal() 
 
+ggsave("variationsources.png")
+
 ```
 
 # The Equation
@@ -331,14 +333,24 @@ tribble(
  
 # Parenting Behaviors Vary *Somewhat* Across Countries
 
-Verbal reasoning (78%) and shouting (64%) are the most common parental discipline behaviors toward young children.
+*Verbal reasoning* and *shouting* are the most common parental discipline behaviors toward young children.
+
+![positive and negative parenting](descriptives.png)
 
 # The *Maximal Model* Approach {.smaller}
 
+:::: {.columns}
+::: {.column width="50%"}
 * Hypothetically, one might imagine that there could be group level [unobserved factors which affect many regression slopes]{.fragment .highlight-red}--i.e. the relationship between multiple predictors (e.g. $x_1$, $x_2$, $x_3$, etc.) and outcome variable $y$. 
 * Arguably, were one to ignore these unobserved factors in statistical estimation, they would show up either in an error term ($e_i$ or $u_0$), or in the regression coefficients ($\beta$). This could be seen as a form of [statistical bias]{.fragment .highlight-red}.
 * The above could lead to a [substantive mis-estimation of important effects]{.fragment .highlight-red}. Thus, there is a conceptual argument for including as many random effects—i.e. random slopes—in a statistical model as possible [@Barr2013; @Frank2018].
 * There is also a substantive reason: [We might be interested in the *variation* of *all* the random slopes!]{.fragment .highlight-red}
+:::
+
+::: {.column width="50%"}
+![sources of variation](variationsources.png)
+:::
+::::
 
 # Relationship of Parenting And Child Outcomes {.smaller .scrollable}
 
@@ -349,7 +361,7 @@ Verbal reasoning (78%) and shouting (64%) are the most common parental disciplin
 
 ## A Standard Spaghetti Plot
 
-![a standard 'spaghetti' plot](spagplot-explain.png)
+![a standard 'spaghetti' plot](explain-spaghetti-plot0.png)
 
 ## A Modified Spaghetti Plot
 
@@ -357,8 +369,8 @@ Verbal reasoning (78%) and shouting (64%) are the most common parental disciplin
 
 # Quantifying Diversity and Commonality in the Relationship of Parenting To Child Outcomes
 
-1. Regression slopes--when statistically significant--are all in the same direction, and of at least somewhat similar magnitude.
-2. The actual values of the $\text{var}(u_{kj})$ or $\text{range}(u_{kj})$ are small.
+1. [Regression slopes--when statistically significant--are all in the same direction]{.fragment .highlight-red}, and of at least somewhat similar magnitude.
+2. The [actual values of the $\text{var}(u_{kj})$ or $\text{range}(u_{kj})$ are small]{.fragment .highlight-red}.
 
 ::: {.content-visible when-format="html"}
 # The Argument Of This Presentation Revisited {.smaller}
@@ -397,13 +409,32 @@ Verbal reasoning (78%) and shouting (64%) are the most common parental disciplin
 ::::
 
 ::: {.content-visible when-format="html"}
-# Questions 
+# Discussion and Questions
 
+How might it be helpful to start thinking about possible universality, commonality, and similarity ...
+
+:::{.center}
+... while keeping in mind ...
+:::
+
+:::{.right}
+... our diversity, differences, and variation?
+:::
+
+### **Other Questions?**
+
+:::
+
+::: {.content-hidden when-format="pdf"}
 ![Global Families Project](qrcode2.svg)
 :::
 
-::: {.content-visible when-format="html"}
-# Discussion
+::: {.content-visible when-format="revealjs"}
+# References {.smaller}
+:::
+
+::: {.content-visible when-format="pdf"}
+# References
 :::
 
 ```{r}
@@ -432,18 +463,4 @@ generate_svg(
   show = interactive())
 
 ```
-
-::: {.content-hidden when-format="pdf"}
-![Global Families Project](qrcode2.svg)
-:::
-
-::: {.content-visible when-format="revealjs"}
-# References {.smaller}
-:::
-
-::: {.content-visible when-format="pdf"}
-# References
-:::
-
-
 

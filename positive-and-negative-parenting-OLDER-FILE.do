@@ -12,6 +12,14 @@ label variable aggress "child aggression"
 
 describe d_*
 
+* descriptive statistics
+
+graph bar (mean) d_*, blabel(bar, format(%9.2f)) ///
+title("Proportions of Parents Using Different Discipline Types") ///
+subtitle("UNICEF MICS Data")
+
+graph export "descriptives.png", replace width(2000)
+
 * analysis
 
 * mixed

@@ -12,5 +12,19 @@ a {
   color: #2F65A7;
 }
 
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+/* Highlights only rows within the body of the table */
+/* W3Schools */
+tbody tr:hover {
+  background-color: #d6eeee;
+  cursor: pointer; /* Optional: indicates the row is interactive */
+}
 
 
