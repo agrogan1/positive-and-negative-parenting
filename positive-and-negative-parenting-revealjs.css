@@ -29,6 +29,10 @@ p.author {
   color: red;
 }
 
+.reveal .slide figure>figcaption {
+  color: red;
+}
+
 .center-xy {
   margin: 0;
   position: absolute;
