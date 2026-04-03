@@ -28,7 +28,7 @@ format:
     number-sections: true
   revealjs: 
     theme: [default, theme.scss]
-    slide-level: 1
+    slide-level: 2
     lightbox: true
     scrollable: true
     controls: true
@@ -101,6 +101,8 @@ library(rnaturalearth) # natural earth data
 ::: {.content-visible when-format="html"}
 # A Challenge
 
+## Click To See The Challenge
+
 <button onclick="typeWriter()" style="color:red;font-family: monospace;">Click To See The Challenge</button>
 
 <p id="demo" style="color:red;font-family: monospace;" class="line-break"></p>
@@ -125,7 +127,9 @@ function typeWriter() {
 </script>
 :::
 
-# The Scope of the Issue {.smaller}
+# The Big Ideas
+
+## The Scope of the Issue {.smaller}
 
 ::: {.incremental}
 * UNICEF considers children globally to be in [crisis]{.fragment .highlight-red}: political violence, climate change, and poverty affect many children [@UNICEF2024fastfacts; @UNICEF2024notnewnormal].
@@ -134,7 +138,7 @@ function typeWriter() {
 * In a review of 50 years of literature on physical punishment, @Gershoff2016 [connect physical punishment to poor mental health outcomes]{.fragment .highlight-red}, and other poor outcomes over the life course. @Ward2023 examines the [relationship of multiple forms of parental discipline to child outcomes]{.fragment .highlight-red}.
 :::
 
-# Are We Similar? Are We Different?
+## Are We Similar? Are We Different?
 
 ::: {layout-ncol=2}
 ![positive parenting](positiveparenting.png)
@@ -142,16 +146,16 @@ function typeWriter() {
 ![countries in MICS data](MICS.png)
 :::
 
-# Both Universals and Variation Are Important {.smaller .scrollable}
+## Both Universals and Variation Are Important {.smaller .scrollable}
 
 > "Despite the [incredible diversity]{.fragment .highlight-red} existing among and within human cultures, there are many phenomena that occur regularly in all known societies. These [commonalities, or universals]{.fragment .highlight-red}, while deriving in part from human nature, may also have specific social, cultural, and systemic sources. We need to develop a working understanding of these universals so that we might advance legitimate, empirically based human science set on creating knowledge that is politically relevant to [fostering real solutions]{.fragment .highlight-red} to the problems that complicate human co-existence in the Age of the Anthropocene." [@Antweiler2016]
 
 
-# Highlighting Commonalities May Promote Intergroup Attitudes And Solidarity
+## Highlighting Commonalities May Promote Intergroup Attitudes And Solidarity
 
 > "@Hanel2019 cite research suggesting that 'highlighting similarities between groups [improves interpersonal and intergroup attitudes]{.fragment .highlight-red}.' Others have argued that 'build[ing] bonds of commonality across our differences' might be an [impetus for social transformation]{.fragment .highlight-red} [@Hunt-Hendrix2024]."
 
-# The Argument Of This Presentation
+## The Argument Of This Presentation
 
 ::: {.incremental}
 * Families, parents and children experience an incredible [diversity of circumstances]{.fragment .highlight-red}.
@@ -159,7 +163,9 @@ function typeWriter() {
 * The [associations]{.fragment .highlight-red} of parenting with child outcomes are surprisingly consistent.
 :::
 
-# Data {.smaller}
+# The Study
+
+## Data {.smaller}
 
 MICS data collected by UNICEF from Low and Middle Income Countries (LMIC) around the world. $N = 224,632 \text{ families}; N_{countries} = 60$
 
@@ -262,7 +268,7 @@ p0
 :::
 
 
-# Sources of Variation In The Study of Parenting And Child Outcomes
+## Sources of Variation In The Study of Parenting And Child Outcomes
 
 ```{r}
 #| label: fig-variationsources
@@ -344,6 +350,7 @@ tribble(
                    linecolor = "red") +
   labs(title = "Sources of Variation",
        subtitle = "In The Study of Parenting And Child Outcomes",
+       caption = "This kind of graph is called a SPAGHETTI PLOT. \nEvery line is a country",
        x = "parenting behavior",
        y = "child outcome") +
   xlim(0, 10) +
@@ -355,17 +362,17 @@ ggsave("variationsources.png")
 
 ```
 
-# The Equation
+## The Equation
 
 ![annotated equation](annotated-equation.png)
  
-# Parenting Behaviors Vary *Somewhat* Across Countries
+## Parenting Behaviors Vary *Somewhat* Across Countries
 
 *Verbal reasoning* and *shouting* are the most common parental discipline behaviors toward young children.
 
 ![positive and negative parenting](descriptives.png)
 
-# The *Maximal Model* Approach {.smaller}
+## The *Maximal Model* Approach {.smaller}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -380,7 +387,7 @@ ggsave("variationsources.png")
 :::
 ::::
 
-# Relationship of Parenting And Child Outcomes {.smaller .scrollable}
+## Relationship of Parenting And Child Outcomes {.smaller .scrollable}
 
 ```{r, child=c('./mytable.md')}
 ```
@@ -395,22 +402,24 @@ ggsave("variationsources.png")
 
 ![modified spaghetti plot](explain-spaghetti-plot.png)
 
-# Quantifying Diversity and Commonality in the Relationship of Parenting To Child Outcomes
+## Quantifying Diversity and Commonality in the Relationship of Parenting To Child Outcomes
 
 1. [Regression slopes--when statistically significant--are all in the same direction]{.fragment .highlight-red}, and of at least somewhat similar magnitude.
 2. The [actual values of the $\text{var}(u_{kj})$ or $\text{range}(u_{kj})$ are small]{.fragment .highlight-red}.
 
-# To Summarize ...
+# Wrapping It Up
+
+## To Summarize ...
 
 * There is an [incredible diversity]{.fragment .highlight-red} across countries, especially LMIC's.
 * However, the [associations]{.fragment .highlight-red} of different forms of parental discipline are [surprisingly consistent]{.fragment .highlight-red}.
     + Explaining to children the difference between right and wrong has consistently ["good"]{.fragment .custom .darkgreen} outcomes in terms of aggression.
-    + Spanking has consistently ["bad"]{.fragment .highlight-red} outcomes in terms of aggression.
-    + Shouting has consistently ["bad"]{.fragment .highlight-red} outcomes in terms of aggression.
-    + Name calling has consistently ["bad"]{.fragment .highlight-red} outcomes in terms of aggression. 
+    + Spanking has consistently ["bad"]{.fragment .custom .darkred} outcomes in terms of aggression.
+    + Shouting has consistently ["bad"]{.fragment .custom .darkred} outcomes in terms of aggression.
+    + Name calling has consistently ["bad"]{.fragment .custom .darkred} outcomes in terms of aggression. 
 
 ::: {.content-visible when-format="html"}
-# The Argument Of This Presentation Revisited {.smaller}
+## The Argument Of This Presentation Revisited {.smaller}
 
 :::: {.columns}
 
@@ -429,7 +438,7 @@ ggsave("variationsources.png")
 
 :::
 
-# Implications {.smaller}
+## Implications {.smaller}
 
 > "My conception of the universal is that of a universal enriched by all that is particular, a universal enriched by every particular: the deepening and coexistence of all particulars." [@Cesaire1956] 
 
@@ -445,7 +454,7 @@ ggsave("variationsources.png")
 :::
 ::::
 
-# Discussion and Questions
+## Discussion and Questions
 
 How might it be helpful to start thinking about possible [universality, commonality, and similarity ...]{.fragment .highlight-red}
 

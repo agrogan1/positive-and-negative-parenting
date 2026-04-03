@@ -70,3 +70,12 @@ tbody tr:hover {
   background-color: darkgreen;
 }
 
+.reveal .slides section .fragment.darkred {
+  color: black;
+}
+
+.reveal .slides section .fragment.darkred.visible {
+  color: white;
+  background-color: darkred;
+}
+
