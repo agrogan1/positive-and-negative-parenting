@@ -101,13 +101,18 @@ library(rnaturalearth) # natural earth data
 ::: {.content-visible when-format="html"}
 # A Challenge
 
-<button onclick="typeWriter()">Click To See The Challenge</button>
+<button onclick="typeWriter()" style="color:red;font-family: monospace;">Click To See The Challenge</button>
 
-<p id="demo" style="color:red;font-family: monospace;"></p>
+<p id="demo" style="color:red;font-family: monospace;" class="line-break"></p>
 
 <script>
 var i = 0;
-var txt = 'Thinking about universals, commonality and similarity is difficult, yet, I would argue vital. Finding the best way to talk about these ideas, statistically model them, and visualize them, is challenging. Comments, questions, and suggestions are welcome.';
+var txt = `Thinking about universals, commonality and similarity is difficult, yet, I would argue vital. 
+
+Finding the best way to talk about these ideas, statistically model them, and visualize them, is CHALLENGING. 
+
+Comments, questions, and suggestions are welcome.`;
+
 var speed = 50;
 
 function typeWriter() {
@@ -142,7 +147,7 @@ function typeWriter() {
 > "Despite the [incredible diversity]{.fragment .highlight-red} existing among and within human cultures, there are many phenomena that occur regularly in all known societies. These [commonalities, or universals]{.fragment .highlight-red}, while deriving in part from human nature, may also have specific social, cultural, and systemic sources. We need to develop a working understanding of these universals so that we might advance legitimate, empirically based human science set on creating knowledge that is politically relevant to [fostering real solutions]{.fragment .highlight-red} to the problems that complicate human co-existence in the Age of the Anthropocene." [@Antweiler2016]
 
 
-# Highlighting Commonalities May Promote Intergroup Attitudes And Solidarity {.smaller}
+# Highlighting Commonalities May Promote Intergroup Attitudes And Solidarity
 
 > "@Hanel2019 cite research suggesting that 'highlighting similarities between groups [improves interpersonal and intergroup attitudes]{.fragment .highlight-red}.' Others have argued that 'build[ing] bonds of commonality across our differences' might be an [impetus for social transformation]{.fragment .highlight-red} [@Hunt-Hendrix2024]."
 
