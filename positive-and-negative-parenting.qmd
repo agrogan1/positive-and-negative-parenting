@@ -83,7 +83,7 @@ library(rnaturalearth) # natural earth data
 - Use the :arrow_left: :arrow_right: keys to move through the presentation.
 - Press *o* for *panel overview*.
 - Press **☰** for *menu*.
-- You may have to *scroll down* to see the entirety of some slides.
+- You may have to *scroll down* :arrow_down: to see the entirety of some slides.
 :::
 
 # Acknowledgements
@@ -98,13 +98,35 @@ library(rnaturalearth) # natural earth data
 * NICHD
 :::
 
+::: {.content-visible when-format="html"}
+# A Challenge
+
+<button onclick="typeWriter()">Click To See The Challenge</button>
+
+<p id="demo" style="color:red;font-family: monospace;"></p>
+
+<script>
+var i = 0;
+var txt = 'Thinking about universals, commonality and similarity is difficult, yet, I would argue vital. Finding the best way to talk about these ideas, statistically model them, and visualize them, is challenging. Comments, questions, and suggestions are welcome.';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+:::
+
 # The Scope of the Issue {.smaller}
 
 ::: {.incremental}
-* UNICEF considers children globally to be in crisis: political violence, climate change, and poverty affect many children [@UNICEF2024fastfacts; @UNICEF2024notnewnormal].
-* In this time of crisis, parenting is one crucial area of focus.
-* According to UNICEF data, $\frac{1}{3}$ of children are subject to physical punishment [@Ward2023]; $\frac{2}{3}$ to some form of violent punishment [@UNICEF2024fastfacts].
-* In a review of 50 years of literature on physical punishment, @Gershoff2016 connect physical punishment to poor mental health outcomes, and other poor outcomes over the life course. @Ward2023 examines the relationship of multiple forms of parental discipline to child outcomes.
+* UNICEF considers children globally to be in [crisis]{.fragment .highlight-red}: political violence, climate change, and poverty affect many children [@UNICEF2024fastfacts; @UNICEF2024notnewnormal].
+* In this time of crisis, [parenting]{.fragment .highlight-red} is one crucial area of focus.
+* According to UNICEF data, [$\frac{1}{3}$ of children are subject to physical punishment]{.fragment .highlight-red} [@Ward2023]; [$\frac{2}{3}$ to some form of violent punishment]{.fragment .highlight-red} [@UNICEF2024fastfacts].
+* In a review of 50 years of literature on physical punishment, @Gershoff2016 [connect physical punishment to poor mental health outcomes]{.fragment .highlight-red}, and other poor outcomes over the life course. @Ward2023 examines the [relationship of multiple forms of parental discipline to child outcomes]{.fragment .highlight-red}.
 :::
 
 # Are We Similar? Are We Different?
@@ -117,7 +139,7 @@ library(rnaturalearth) # natural earth data
 
 # Both Universals and Variation Are Important {.smaller .scrollable}
 
-> "Despite the [incredible diversity]{.fragment .highlight-red} existing among and within human cultures, there are many phenomena that occur regularly in all known societies. These [commonalities, or universals]{.fragment .highlight-red}, while deriving in part from human nature, may also have specific social, cultural, and systemic sources. We need to develop a working understanding of these universals so that we might advance legitimate, empirically based human science set on [creating knowledge that is politically relevant to fostering real solutions to the problems that complicate human co-existence]{.fragment .highlight-red} in the Age of the Anthropocene." [@Antweiler2016]
+> "Despite the [incredible diversity]{.fragment .highlight-red} existing among and within human cultures, there are many phenomena that occur regularly in all known societies. These [commonalities, or universals]{.fragment .highlight-red}, while deriving in part from human nature, may also have specific social, cultural, and systemic sources. We need to develop a working understanding of these universals so that we might advance legitimate, empirically based human science set on creating knowledge that is politically relevant to [fostering real solutions]{.fragment .highlight-red} to the problems that complicate human co-existence in the Age of the Anthropocene." [@Antweiler2016]
 
 
 # Highlighting Commonalities May Promote Intergroup Attitudes And Solidarity {.smaller}
@@ -409,22 +431,20 @@ ggsave("variationsources.png")
 :::
 ::::
 
-::: {.content-visible when-format="html"}
 # Discussion and Questions
 
-How might it be helpful to start thinking about possible universality, commonality, and similarity ...
+How might it be helpful to start thinking about possible [universality, commonality, and similarity ...]{.fragment .highlight-red}
 
 :::{.center}
 ... while keeping in mind ...
 :::
 
 :::{.right}
-... our diversity, differences, and variation?
+[... our diversity, differences, and variation?]{.fragment .highlight-red}
 :::
 
 ### **Other Questions?**
 
-:::
 
 ::: {.content-hidden when-format="pdf"}
 ![Global Families Project](qrcode2.svg)
