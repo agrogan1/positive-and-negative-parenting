@@ -61,5 +61,12 @@ tbody tr:hover {
   white-space: pre-line;
 }
 
+.reveal .slides section .fragment.darkgreen {
+  color: black;
+}
 
+.reveal .slides section .fragment.darkgreen.visible {
+  color: white;
+  background-color: darkgreen;
+}
 
