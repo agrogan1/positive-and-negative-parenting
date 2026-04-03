@@ -400,6 +400,15 @@ ggsave("variationsources.png")
 1. [Regression slopes--when statistically significant--are all in the same direction]{.fragment .highlight-red}, and of at least somewhat similar magnitude.
 2. The [actual values of the $\text{var}(u_{kj})$ or $\text{range}(u_{kj})$ are small]{.fragment .highlight-red}.
 
+# To Summarize ...
+
+* There is an [incredible diversity]{.fragment .highlight-red} across countries, especially LMIC's.
+* However, the [associations]{.fragment .highlight-red} of different forms of parental discipline are [surprisingly consistent]{.fragment .highlight-red}.
+    + Explaining to children the difference between right and wrong has consistently ["good"]{.fragment .custom .darkgreen} outcomes in terms of aggression.
+    + Spanking has consistently ["bad"]{.fragment .highlight-red} outcomes in terms of aggression.
+    + Shouting has consistently ["bad"]{.fragment .highlight-red} outcomes in terms of aggression.
+    + Name calling has consistently ["bad"]{.fragment .highlight-red} outcomes in terms of aggression. 
+
 ::: {.content-visible when-format="html"}
 # The Argument Of This Presentation Revisited {.smaller}
 
