@@ -1,18 +1,18 @@
 h1.title {
   font-size: 55px;
-  color: white;
-  background-color: red;
+  color: #FFCB05;
+  background-color: #00274C;
 }
 
 .subtitle {
-  color: white;
-  background-color: red;
+  color: #FFCB05;
+  background-color: #00274C;
 }
 
 .quarto-title-author-name, .date {
   font-size: 30px;
-  color: white;
-  background-color: red;
+  color: #FFCB05;
+  background-color: #00274C;
 }
 
 p.author {
@@ -21,22 +21,22 @@ p.author {
 
 .reveal blockquote {
   color: black;
-  border-left: 3px solid red; 
+  border-left: 3px solid #FFCB05; 
   padding: 0.5em 10px;
 }
 
 .reveal .progress span { 
-  color: red;
+  color: #D86018;
 }
 
 .reveal .slide figure>figcaption {
-  color: red;
+  color: #D86018;
 }
 
 /* Highlights only rows within the body of the table */
 /* W3Schools */
 tbody tr:hover {
-  background-color: #FFCCCB;
+  background-color: lightblue;
   cursor: pointer; /* Optional: indicates the row is interactive */
 }
 

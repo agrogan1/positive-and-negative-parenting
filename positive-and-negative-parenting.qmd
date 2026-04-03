@@ -297,7 +297,7 @@ tribble(
                    y = max(intercept),
                    yend = min(intercept)),
                alpha = .25,
-               color = "red",
+               color = "#D86018",
                size = 1,
                arrow = arrow(ends = "both",
                              length = unit(0.1, 
@@ -312,13 +312,13 @@ tribble(
            x = 2.0, 
            y = 2.5, 
            label = "variation in outcome",
-           color = "red") +
+           color = "#9A3324") +
   annotate("segment", 
            x = 2, 
            xend = .1, 
            y = 3, 
            yend = 5,
-           colour = "red", 
+           colour = "#D86018", 
            linewidth = 1, 
            arrow = arrow()) +
   annotate("segment", 
@@ -326,28 +326,28 @@ tribble(
            xend = 10, 
            y = 1, 
            yend = 1,
-           colour = "red", 
+           colour = "#D86018", 
            linewidth = 1, 
            arrow = arrow(ends = "both")) +
   annotate("text",
            x = 5,
            y = .5,
            label = "variation in parenting behavior",
-           color = "red") +
+           color = "#9A3324") +
   geom_labelabline(aes(intercept = 5, 
                        slope = max(slope), 
                        label = "variation in relationship of \nparenting behavior \nto child outcome"),
                    size = 3,
                    text_only = TRUE,
-                   textcolor = "red",
-                   linecolor = "red") +
+                   textcolor = "#9A3324",
+                   linecolor = "#9A3324") +
   geom_labelabline(aes(intercept = 5, 
                        slope = min(slope), 
                        label = "variation in relationship of \nparenting behavior \nto child outcome"),
                    size = 3,
                    text_only = TRUE,
-                   textcolor = "red",
-                   linecolor = "red") +
+                   textcolor = "#9A3324",
+                   linecolor = "#9A3324") +
   labs(title = "Sources of Variation",
        subtitle = "In The Study of Parenting And Child Outcomes",
        caption = "This kind of graph is called a SPAGHETTI PLOT. \nEvery line is a country",
