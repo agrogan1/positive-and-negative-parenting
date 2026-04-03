@@ -1,18 +1,18 @@
 h1.title {
   font-size: 55px;
-  color: #FFCB05;
-  background-color: #00274C;
+  color: #00274C;
+  background-color: #FFCB05;
 }
 
 .subtitle {
-  color: #FFCB05;
-  background-color: #00274C;
+  color: #00274C;
+  background-color: #FFCB05;
 }
 
 .quarto-title-author-name, .date {
   font-size: 30px;
-  color: #FFCB05;
-  background-color: #00274C;
+  color: #00274C;
+  background-color: #FFCB05;
 }
 
 p.author {
