@@ -99,7 +99,7 @@ library(rnaturalearth) # natural earth data
 :::
 
 ::: {.content-visible when-format="html"}
-# A Challenge
+# A Challenge For All Of Us
 
 ## Click To See The Challenge
 
@@ -113,7 +113,7 @@ var txt = `Thinking about universals, commonality and similarity is difficult, y
 
 Finding the best way to talk about these ideas, statistically model them, and visualize them, is CHALLENGING. 
 
-Comments, questions, and suggestions are welcome.`;
+I could use your help!`;
 
 var speed = 50;
 
@@ -129,7 +129,7 @@ function typeWriter() {
 
 # The Big Ideas
 
-## The Scope of the Issue {.smaller}
+## The Scope of the Issue 
 
 ::: {.incremental}
 * UNICEF considers children globally to be in [crisis]{.fragment .highlight-red}: political violence, climate change, and poverty affect many children [@UNICEF2024fastfacts; @UNICEF2024notnewnormal].
@@ -146,10 +146,9 @@ function typeWriter() {
 ![countries in MICS data](MICS.png)
 :::
 
-## Both Universals and Variation Are Important {.smaller .scrollable}
+## Both Universals and Variation Are Important {.scrollable}
 
 > "Despite the [incredible diversity]{.fragment .highlight-red} existing among and within human cultures, there are many phenomena that occur regularly in all known societies. These [commonalities, or universals]{.fragment .highlight-red}, while deriving in part from human nature, may also have specific social, cultural, and systemic sources. We need to develop a working understanding of these universals so that we might advance legitimate, empirically based human science set on creating knowledge that is politically relevant to [fostering real solutions]{.fragment .highlight-red} to the problems that complicate human co-existence in the Age of the Anthropocene." [@Antweiler2016]
-
 
 ## Highlighting Commonalities May Promote Intergroup Attitudes And Solidarity
 
@@ -362,6 +361,13 @@ ggsave("variationsources.png")
 
 ```
 
+
+## Check-In {background-color="#FFCB05"}
+
+:::{.r-fit-text}
+Are we OK? Are there questions? 
+:::
+
 ## The Equation
 
 ![annotated equation](annotated-equation.png)
@@ -417,6 +423,10 @@ ggsave("variationsources.png")
     + Spanking has consistently ["bad"]{.fragment .custom .darkred} outcomes in terms of aggression.
     + Shouting has consistently ["bad"]{.fragment .custom .darkred} outcomes in terms of aggression.
     + Name calling has consistently ["bad"]{.fragment .custom .darkred} outcomes in terms of aggression. 
+
+## Attempting a Visual Summary...
+
+![a visual summary](visual-summary-diagram.png){width=50%}
 
 ::: {.content-visible when-format="html"}
 ## The Argument Of This Presentation Revisited {.smaller}
