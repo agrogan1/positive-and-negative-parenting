@@ -39,9 +39,10 @@ format:
     transition-speed: slow
     chalkboard: true
     title-slide-attributes:
-      data-background-image: positiveparentingBW.png
+      data-background-image: positiveparenting.png
       data-background-size: contain
       data-background-transition: fade
+      data-background-opacity: ".33"
     css: positive-and-negative-parenting-revealjs.css
     view-distance: 10
     mobile-view-distance: 10
