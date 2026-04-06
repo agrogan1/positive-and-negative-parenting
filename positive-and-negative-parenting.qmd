@@ -291,7 +291,7 @@ tribble(
   ggplot() +
   geom_abline(aes(intercept = intercept, 
                   slope = slope),
-              color = "grey") +
+              color = "#00B2A9") +
   geom_segment(aes(x = 0, 
                    xend = 0,
                    y = max(intercept),
@@ -368,6 +368,10 @@ ggsave("variationsources.png")
 :::{.r-fit-text}
 Are we OK? Are there questions? 
 :::
+
+## Sources of Variation (2)
+
+![a visual version of the research question](visual-question-diagram.png){width=50%}
 
 ## The Equation
 

@@ -5,9 +5,67 @@ format:
     toc: false
   pptx: 
     toc: false
+    dpi: 600
 author: "Andy Grogan-Kaylor"
 date: "today"
 ---
+
+# Research Question 
+
+```{mermaid}
+
+flowchart LR
+
+ classDef yellow fill:#FFC20E,stroke:#000000,stroke-width:2px,color:#000000;
+  
+  classDef blue fill:#374EA2,stroke:#000000,stroke-width:2px,color:#FFFFFF;
+  
+  classDef green fill:#00833D,stroke:#000000,stroke-width:2px,color:#FFFFFF;
+  
+  classDef orange fill:#D86018,stroke:#000000,stroke-width:2px,color:#FFFFFF;
+  
+  classDef red fill:#9A3324,stroke:#000000,stroke-width:2px,color:#FFFFFF;
+    
+ subgraph country1
+ 
+ direction LR
+ 
+ parenting1("parenting"):::yellow --> outcome1("child development"):::blue
+ 
+ end
+ 
+ subgraph country2
+ 
+ direction LR
+ 
+ parenting2("parenting"):::yellow --> outcome2("child development"):::blue
+  
+ end
+ 
+ subgraph country3
+ 
+ direction LR
+ 
+ parenting3("parenting"):::yellow --> outcome3("child development"):::blue
+  
+ end
+ 
+  linkStyle 0,1,2 stroke:#000000,stroke-width:3px,color:black;
+
+  style country1 fill: #F2F2F2
+  
+  style country2 fill: #F2F2F2
+  
+  style country3 fill: #F2F2F2
+
+  classDef yellow fill:#FFC20E,stroke:#000000,stroke-width:2px,color:#000000;
+  
+   classDef blue fill:#374EA2,stroke:#000000,stroke-width:2px,color:#FFFFFF;
+  
+   classDef green fill:#00833D,stroke:#000000,stroke-width:2px,color:#FFFFFF;
+```
+
+# Results
 
 ```{mermaid}
 
@@ -29,7 +87,7 @@ flowchart LR
   
   shouting("shouting"):::orange --> higheraggression
   
-  namecalling("namecalling"):::orange --> higheraggression
+  namecalling("name calling"):::orange --> higheraggression
   
   linkStyle 0,1,2,3 stroke:#000000,stroke-width:3px,color:black;
 

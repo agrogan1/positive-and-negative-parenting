@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Andy Grogan-Kaylor">
-<meta name="dcterms.date" content="2026-04-04">
+<meta name="dcterms.date" content="2026-04-06">
 
 <title>Visual Summary Diagram</title>
 <style>
@@ -46,10 +46,11 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="fullcontent quarto-light">
+<body class="quarto-light">
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="visual-summary-diagram.pptx"><i class="bi bi-file-slides"></i>Powerpoint</a></li></ul></div></div>
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -71,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 4, 2026</p>
+      <p class="date">April 6, 2026</p>
     </div>
   </div>
   
@@ -83,6 +84,71 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="research-question" class="level1">
+<h1>Research Question</h1>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+
+ classDef yellow fill:#FFC20E,stroke:#000000,stroke-width:2px,color:#000000;
+  
+  classDef blue fill:#374EA2,stroke:#000000,stroke-width:2px,color:#FFFFFF;
+  
+  classDef green fill:#00833D,stroke:#000000,stroke-width:2px,color:#FFFFFF;
+  
+  classDef orange fill:#D86018,stroke:#000000,stroke-width:2px,color:#FFFFFF;
+  
+  classDef red fill:#9A3324,stroke:#000000,stroke-width:2px,color:#FFFFFF;
+    
+ subgraph country1
+ 
+ direction LR
+ 
+ parenting1("parenting"):::yellow --&gt; outcome1("child development"):::blue
+ 
+ end
+ 
+ subgraph country2
+ 
+ direction LR
+ 
+ parenting2("parenting"):::yellow --&gt; outcome2("child development"):::blue
+  
+ end
+ 
+ subgraph country3
+ 
+ direction LR
+ 
+ parenting3("parenting"):::yellow --&gt; outcome3("child development"):::blue
+  
+ end
+ 
+  linkStyle 0,1,2 stroke:#000000,stroke-width:3px,color:black;
+
+  style country1 fill: #F2F2F2
+  
+  style country2 fill: #F2F2F2
+  
+  style country3 fill: #F2F2F2
+
+  classDef yellow fill:#FFC20E,stroke:#000000,stroke-width:2px,color:#000000;
+  
+   classDef blue fill:#374EA2,stroke:#000000,stroke-width:2px,color:#FFFFFF;
+  
+   classDef green fill:#00833D,stroke:#000000,stroke-width:2px,color:#FFFFFF;
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="results" class="level1">
+<h1>Results</h1>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
@@ -106,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
   
   shouting("shouting"):::orange --&gt; higheraggression
   
-  namecalling("namecalling"):::orange --&gt; higheraggression
+  namecalling("name calling"):::orange --&gt; higheraggression
   
   linkStyle 0,1,2,3 stroke:#000000,stroke-width:3px,color:black;
 
@@ -117,6 +183,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
+</section>
 
 </main>
 <!-- /main column -->
