@@ -169,6 +169,8 @@ function typeWriter() {
 
 MICS data collected by UNICEF from Low and Middle Income Countries (LMIC) around the world. $N = 224,632 \text{ families}; N_{countries} = 60$
 
+Contains questions about [parental discipline (both positive and negative)]{.fragment .highlight-red} and [child aggression]{.fragment .highlight-red} . 
+
 ```{r}
 #| output: false
 #| echo: false
