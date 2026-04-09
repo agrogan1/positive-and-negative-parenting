@@ -13,7 +13,7 @@ format:
     lightbox: true
     css: positive-and-negative-parenting.css
   poster-typst: 
-    size: "48x36"
+    size: "36x24"
     output-file: positive-and-negative-parenting-poster.pdf
     poster-authors: "Andrew Grogan-Kaylor, Julie Ma, Yoonsun Han, Kaitlin Ward"
     departments: "University of Michigan And Seoul National University"

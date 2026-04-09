@@ -4,6 +4,8 @@ reffects <- read_dta("reffects.dta")
 
 library(ggplot2)
 
+# spanking
+
 reffects$spankbeta <- .023 + reffects$u4
 
 reffects$spankbetaPOSITIVE <- ifelse(reffects$spankbeta > 0, 
@@ -13,8 +15,6 @@ reffects$spankbetaPOSITIVE <- ifelse(reffects$spankbeta > 0,
 reffects$spankbetaNEGATIVE <- ifelse(reffects$spankbeta <= 0, 
                                      reffects$spankbeta, 
                                      NA)
-
-# spanking
 
 ggplot(reffects,
        aes(color = country)) +
@@ -70,18 +70,24 @@ ggsave("explain-spaghetti-plot0.png",
 # modified
 
 ggplot() +
-  geom_segment(data = explainnegative,
+  geom_segment(data = explainnegative, # country specific
                aes(x = 0,
                    xend = 1,
                    y = 0,
                    yend = (-0.014 + u10) * 1,
                    color = u10)) +
-  geom_segment(data = explainpositive,
+  geom_segment(data = reffects, # average effect
                aes(x = 0,
                    xend = 1,
                    y = 0,
-                   yend = (-0.014 + u10) * 1),
-               color = "grey") +
+                   yend = -0.014),
+               color = "darkgreen") +
+  # geom_segment(data = explainpositive,
+  #              aes(x = 0,
+  #                  xend = 1,
+  #                  y = 0,
+  #                  yend = (-0.014 + u10) * 1),
+  #              color = "grey") +
   # scale_color_viridis_d(option = "turbo") +
   scale_color_gradient(low = "chartreuse4",
                        high = "chartreuse") +
@@ -89,7 +95,7 @@ ggplot() +
        subtitle = "All Significant Associations of Verbal Reasoning \nWith Aggression Are Negative",
        x = "verbal reasoning",
        y = "aggression",
-       caption = "every line is a country \ngrey lines are not statistically significant") +
+       caption = "every line is a country") +
   theme_minimal() +
   theme(legend.position = "none",
         aspect.ratio = 1)

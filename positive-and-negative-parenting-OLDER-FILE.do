@@ -30,9 +30,15 @@ est store M1
 
 * meqrlogit
 
+timer on 2 // turn on timer 2
+
 meqrlogit aggress sex_selected age_selected d_* || country: d_*, or
 
 est store M2
+
+timer off 2 // turn off timer 2
+
+timer list // list out timers 
 
 * tables of estimates
 
