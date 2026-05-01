@@ -45,6 +45,7 @@ format:
       data-background-transition: fade
       data-background-opacity: ".33"
     css: positive-and-negative-parenting-revealjs.css
+    footer: "last modified:  {{< meta date-modified >}}"
     view-distance: 10
     mobile-view-distance: 10
     output-file: positive-and-negative-parenting-revealjs.html
