@@ -4,7 +4,8 @@ subtitle: "Universals, Commonality, Diversity and Variation In Parenting and Chi
 author: 
   - name: "Andy Grogan-Kaylor"
     url: https://agrogan1.github.io/
-date: "today"
+date: "2026-4-7"
+date-modified: "today"
 format:
   html: 
     toc: true
