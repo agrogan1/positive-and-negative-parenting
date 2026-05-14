@@ -1,0 +1,18 @@
+---
+title: "Custom Size Document"
+format:
+  typst:
+    columns: 3
+    include-before-body:
+      - text: |
+          #show heading: set text(red)
+          #set page(width: 36in, height: 24in)
+---
+
+# Heading 1
+
+```{=typst} 
+
+
+
+```
