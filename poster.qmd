@@ -11,7 +11,7 @@ format:
     output-file: Grogan-Kaylor_Andy_spring2026poster.pdf
     poster-authors: "Andrew Grogan-Kaylor, Julie Ma, Yoonsun Han, Kaitlin Ward"
     departments: "University of Michigan And Seoul National University"
-    institution-logo: "./images/UM.png"
+    institution-logo: "/./images/UM.png"
     footer-text: "Michigan Momentum: Showcasing the Cutting Edge of Social Work Science"
     footer-url: "https://agrogan1.github.io/"
     footer-emails: "agrogan@umich.edu"
