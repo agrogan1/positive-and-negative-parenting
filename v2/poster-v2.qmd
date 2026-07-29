@@ -1,6 +1,5 @@
 ---
-title: "We're Different; We're Similar (A More Intuitive Presentation)"
-subtitle: "Universals, Commonality, Diversity and Variation In Parenting and Child Development" 
+title: "Same; Different: Universals, Commonality, Diversity and Variation In Parenting and Child Development" 
 author: 
   - name: "Andy Grogan-Kaylor"
     url: https://agrogan1.github.io/
@@ -16,7 +15,7 @@ format:
     footer-url: "https://agrogan1.github.io/"
     footer-emails: "agrogan@umich.edu"
     footer-color: "FFCB05"
-    keywords: ["parenting", "discipline", "child development"]
+    keywords: ["parenting", "child development", "universals", "variation"]
 bibliography: positive-and-negative-parenting.bib
 csl: apa.csl
 from: markdown+emoji
@@ -61,7 +60,17 @@ library(rnaturalearth) # natural earth data
 
 # Are We Similar? Are We Different?
 
+::: {layout-ncol=2}
 ![positive parenting](caregiving.png)
+
+![countries in UNICEF MICS Data](MICS.png)
+:::
+
+MICS data collected by UNICEF from Low and Middle Income Countries (LMIC) around the world. 
+
+$N = 224,632 \text{ families}; N_{countries} = 60$
+
+Contains questions about parental discipline (both positive and negative) and child aggression. 
 
 # Highlighting Commonalities May Promote Intergroup Attitudes And Solidarity
 
@@ -72,14 +81,6 @@ library(rnaturalearth) # natural earth data
 * Families, parents and children experience an incredible [diversity]{color="#FF0000"} of circumstances.
 * Parents engage in parenting behaviors with consequent [diversity]{color="#FF0000"}, though with some [surprising similarities]{color="#FF0000"}.
 * The associations of parenting with child outcomes are [surprisingly consistent]{color="#FF0000"}.
-
-# Data 
-
-MICS data collected by UNICEF from Low and Middle Income Countries (LMIC) around the world. $N = 224,632 \text{ families}; N_{countries} = 60$
-
-Contains questions about parental discipline (both positive and negative) and child aggression. 
-
-![countries in UNICEF MICS Data](MICS.png)
 
 # [Parenting Behaviors Vary *Somewhat*]{color="#0000FF"} Across Countries
 
@@ -115,4 +116,7 @@ Parenting Behaviors (Figures created by Allison Liu, hiallisonliu@gmail.com)
     + Shouting has consistently ["bad"]{color="#FFFFFF" bg-color="#FF0000"} outcomes in terms of aggression.
     + Name calling has consistently ["bad"]{color="#FFFFFF" bg-color="#FF0000"} outcomes in terms of aggression. 
     
-    
+# For More Information 
+
+![Global Families Project](qrcode2.svg){width=33%}
+
