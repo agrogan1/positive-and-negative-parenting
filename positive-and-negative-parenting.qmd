@@ -13,6 +13,7 @@ format:
     theme: yeti
     lightbox: true
     css: positive-and-negative-parenting.css
+    format-links: [pdf, revealjs]
   poster-typst: 
     size: "36x24"
     output-file: positive-and-negative-parenting-poster.pdf
