@@ -1,0 +1,118 @@
+---
+title: "We're Different; We're Similar (A More Intuitive Presentation)"
+subtitle: "Universals, Commonality, Diversity and Variation In Parenting and Child Development" 
+author: 
+  - name: "Andy Grogan-Kaylor"
+    url: https://agrogan1.github.io/
+date: "today"
+format:
+  poster-typst: 
+    size: "36x24"
+    output-file: Grogan-Kaylor_Andy_FALL2026poster.pdf
+    poster-authors: "Andrew Grogan-Kaylor, Julie Ma, Yoonsun Han, Kaitlin Ward"
+    departments: "University of Michigan And Seoul National University"
+    institution-logo: "/./images/UM.png"
+    footer-text: "Michigan Momentum: Showcasing the Cutting Edge of Social Work Science"
+    footer-url: "https://agrogan1.github.io/"
+    footer-emails: "agrogan@umich.edu"
+    footer-color: "FFCB05"
+    keywords: ["parenting", "discipline", "child development"]
+bibliography: positive-and-negative-parenting.bib
+csl: apa.csl
+from: markdown+emoji
+filters:
+  - highlight-text
+---
+
+```{r}
+#| output: false
+#| echo: false
+
+library(tibble) # data frames
+
+library(ggplot2) # beautiful graphs
+
+library(geomtextpath) # path geoms
+
+library(readr) # read csv
+
+library(plotly) # interactive graphs
+
+library(dplyr) # data wrangling
+
+library(tidyr) # tidy data
+
+library(countrycode) # work with country names
+
+library(sf) # simple features
+
+library(rnaturalearth) # natural earth data
+
+```
+
+# The Scope of the Issue 
+
+::: {.incremental}
+* UNICEF considers children globally to be in crisis: political violence, climate change, and poverty affect many children [@UNICEF2024fastfacts; @UNICEF2024notnewnormal].
+* In this time of crisis, parenting is one crucial area of focus.
+* According to UNICEF data, $\frac{1}{3}$ of children are subject to physical punishment [@Ward2023]; $\frac{2}{3}$ to some form of violent punishment [@UNICEF2024fastfacts].
+* In a review of 50 years of literature on physical punishment, @Gershoff2016 connect physical punishment to poor mental health outcomes, and other poor outcomes over the life course. @Ward2023 examines the relationship of multiple forms of parental discipline to child outcomes.
+:::
+
+# Are We Similar? Are We Different?
+
+![positive parenting](caregiving.png)
+
+# Highlighting Commonalities May Promote Intergroup Attitudes And Solidarity
+
+> "@Hanel2019 cite research suggesting that ['highlighting similarities between groups improves interpersonal and intergroup attitudes.']{color="#FF0000"} Others have argued that ['build[ing] bonds of commonality across our differences' might be an impetus for social transformation]{color="#FF0000"} [@Hunt-Hendrix2024]."
+
+# The Argument 
+
+* Families, parents and children experience an incredible [diversity]{color="#FF0000"} of circumstances.
+* Parents engage in parenting behaviors with consequent [diversity]{color="#FF0000"}, though with some [surprising similarities]{color="#FF0000"}.
+* The associations of parenting with child outcomes are [surprisingly consistent]{color="#FF0000"}.
+
+# Data 
+
+MICS data collected by UNICEF from Low and Middle Income Countries (LMIC) around the world. $N = 224,632 \text{ families}; N_{countries} = 60$
+
+Contains questions about parental discipline (both positive and negative) and child aggression. 
+
+![countries in UNICEF MICS Data](MICS.png)
+
+# [Parenting Behaviors Vary *Somewhat*]{color="#0000FF"} Across Countries
+
+*Verbal reasoning* and *shouting* are the most common parental discipline behaviors toward young children.
+
+![positive and negative parenting](descriptives.png){width=40%}
+
+# However, [Outcomes]{color="#0000FF"} Of Parenting Behaviors Are [Consistent]{color="#0000FF"} Across Countries
+
+::: {#fig-parenting layout-ncol=3}
+
+![Spanking in Country A](spanking.png){#fig-spankingA}
+
+![Spanking in Country B](spanking.png){#fig-spankingB}
+
+![Spanking in Country C](spanking.png){#fig-spankingC}
+
+![Explaining in Country A](explaining.png){#fig-explainingA}
+
+![Explaining in Country B](explaining.png){#fig-explainingB}
+
+![Explaining in Country C](explaining.png){#fig-explainingC}
+
+Parenting Behaviors (Figures created by Allison Liu, hiallisonliu@gmail.com)
+:::
+
+# To Summarize ...
+
+* There is an incredible diversity across countries, especially LMIC's.
+* However, the associations of different forms of parental discipline are surprisingly consistent.
+    + Explaining to children the difference between right and wrong has consistently ["good"]{color="#FFFFFF" bg-color="#228B22"} outcomes in terms of aggression.
+    + Spanking has consistently ["bad"]{color="#FFFFFF" bg-color="#FF0000"} outcomes in terms of aggression.
+    + Shouting has consistently ["bad"]{color="#FFFFFF" bg-color="#FF0000"} outcomes in terms of aggression.
+    + Name calling has consistently ["bad"]{color="#FFFFFF" bg-color="#FF0000"} outcomes in terms of aggression. 
+    
+    
