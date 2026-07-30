@@ -109,8 +109,8 @@ Parenting Behaviors (Figures created by Allison Liu, hiallisonliu@gmail.com)
 
 # To Summarize ...
 
-* There is an incredible diversity across countries, especially LMIC's.
-* However, the associations of different forms of parental discipline are surprisingly consistent.
+* There is an [incredible diversity]{color="#0000FF"} across countries, especially LMIC's.
+* However, the associations of different forms of parental discipline are [surprisingly consistent]{color="#0000FF"}.
     + Explaining to children the difference between right and wrong has consistently ["good"]{color="#FFFFFF" bg-color="#228B22"} outcomes in terms of aggression.
     + Spanking has consistently ["bad"]{color="#FFFFFF" bg-color="#FF0000"} outcomes in terms of aggression.
     + Shouting has consistently ["bad"]{color="#FFFFFF" bg-color="#FF0000"} outcomes in terms of aggression.
