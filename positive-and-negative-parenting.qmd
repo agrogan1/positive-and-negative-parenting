@@ -133,7 +133,7 @@ function typeWriter() {
 
 # The Big Ideas
 
-## The Scope of the Issue 
+## The Scope of the Issue {.smaller}
 
 ::: {.incremental}
 * UNICEF considers children globally to be in [crisis]{.fragment .highlight-red}: political violence, climate change, and poverty affect many children [@UNICEF2024fastfacts; @UNICEF2024notnewnormal].
@@ -150,7 +150,7 @@ function typeWriter() {
 ![countries in MICS data](MICS.png)
 :::
 
-## Both Universals and Variation Are Important {.scrollable}
+## Both Universals and Variation Are Important {.scrollable .smaller}
 
 > "Despite the [incredible diversity]{.fragment .highlight-red} existing among and within human cultures, there are many phenomena that occur regularly in all known societies. These [commonalities, or universals]{.fragment .highlight-red}, while deriving in part from human nature, may also have specific social, cultural, and systemic sources. We need to develop a working understanding of these universals so that we might advance legitimate, empirically based human science set on creating knowledge that is politically relevant to [fostering real solutions]{.fragment .highlight-red} to the problems that complicate human co-existence in the Age of the Anthropocene." [@Antweiler2016]
 
