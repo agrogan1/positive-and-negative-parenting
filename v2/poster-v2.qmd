@@ -5,6 +5,11 @@ author:
     url: https://agrogan1.github.io/
 date: "today"
 format:
+  html: 
+    toc: true
+    number-sections: true
+    css: poster-v2.css
+    lightbox: true
   poster-typst: 
     size: "36x24"
     output-file: Grogan-Kaylor_Andy_FALL2026poster.pdf
@@ -109,7 +114,7 @@ Parenting Behaviors (Figures created by Allison Liu, hiallisonliu@gmail.com)
 
 # Why Is This Important?
 
-> "The current times are seeing changes at an arguably unprecedented rate, and often much for the worse--with @Ahenakew2025 describing this confluence of challenges as a 'polycrisis'--including a failing response to climate change, capitulation to autocrats and divisive leaders, failures to adequately care for the poor and infirm, fear of immigrants and the Other, and many more. Responding to all of these issues requires some vision of common humanity to unite and motivate us, while also requiring an approach sensitive to local conditions and needs..." [@Lomas2026]
+> "The current times are seeing changes at an arguably unprecedented rate, and often much for the worse--with @Ahenakew2025 describing this confluence of challenges as a 'polycrisis'--including a failing response to climate change, capitulation to autocrats and divisive leaders, failures to adequately care for the poor and infirm, fear of immigrants and the Other, and many more. [Responding to all of these issues requires some vision of common humanity to unite and motivate us, while also requiring an approach sensitive to local conditions and needs...]{color="#FF0000"}" [@Lomas2026]
 
 `#colbreak()`{=typst}
 
@@ -123,6 +128,33 @@ Parenting Behaviors (Figures created by Allison Liu, hiallisonliu@gmail.com)
     + Name calling has consistently ["bad"]{color="#FFFFFF" bg-color="#FF0000"} outcomes in terms of aggression. 
     
 # For More Information 
+
+```{r}
+#| echo: false
+
+library(qrcode)
+
+code <- qr_code("https://agrogan1.github.io/globalfamilies/")
+
+# plot(code, foreground = "#9A3324")
+
+generate_svg(
+  code,
+  "qrcode.svg",
+  size = 300,
+  foreground = "#9A3324",
+  background = "white",
+  show = interactive())
+
+generate_svg(
+  code,
+  "qrcode2.svg",
+  size = 300,
+  foreground = "#FFCB05",
+  background = "#00274C",
+  show = interactive())
+
+```
 
 ![Global Families Project](qrcode2.svg){width=33%}
 
