@@ -1,5 +1,5 @@
 ---
-title: "Same; Different: Universals, Commonality, Diversity and Variation In Parenting and Child Development" 
+title: "Same Same; Different Different: Universals, Commonality, Diversity and Variation In Parenting and Child Development" 
 author: 
   - name: "Andy Grogan-Kaylor"
     url: https://agrogan1.github.io/
