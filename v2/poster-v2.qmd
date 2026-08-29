@@ -10,6 +10,7 @@ format:
     number-sections: true
     css: poster-v2.css
     lightbox: true
+    title-block-banner: true
   poster-typst: 
     size: "36x24"
     output-file: Grogan-Kaylor_Andy_FALL2026poster.pdf
