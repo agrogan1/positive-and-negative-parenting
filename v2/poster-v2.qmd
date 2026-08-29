@@ -57,9 +57,9 @@ library(rnaturalearth) # natural earth data
 # The Scope of the Issue 
 
 ::: {.incremental}
-* UNICEF considers children globally to be in crisis: political violence, climate change, and poverty affect many children [@UNICEF2024fastfacts; @UNICEF2024notnewnormal].
-* In this time of crisis, parenting is one crucial area of focus.
-* According to UNICEF data, $\frac{1}{3}$ of children are subject to physical punishment [@Ward2023]; $\frac{2}{3}$ to some form of violent punishment [@UNICEF2024fastfacts].
+* [UNICEF considers children globally to be in crisis]{color="#FF0000"}: political violence, climate change, and poverty affect many children [@UNICEF2024fastfacts; @UNICEF2024notnewnormal].
+* In this time of crisis, [parenting]{color="#FF0000"} is one crucial area of focus.
+* According to UNICEF data, [$\frac{1}{3}$ of children are subject to physical punishment]{color="#FF0000"} [@Ward2023]; [$\frac{2}{3}$ to some form of violent punishment]{color="#FF0000"} [@UNICEF2024fastfacts].
 * In a review of 50 years of literature on physical punishment, @Gershoff2016 connect physical punishment to poor mental health outcomes, and other poor outcomes over the life course. @Ward2023 examines the relationship of multiple forms of parental discipline to child outcomes.
 :::
 
