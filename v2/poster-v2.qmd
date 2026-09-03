@@ -3,6 +3,9 @@ title: "Same Same; Different Different: Universals, Commonality, Diversity and V
 author: 
   - name: "Andy Grogan-Kaylor"
     url: https://agrogan1.github.io/
+  - name: "Julie Ma"
+  - name: "Yoonsun Han"
+  - name: "Kaitlin Ward"
 date: "today"
 format:
   html: 
