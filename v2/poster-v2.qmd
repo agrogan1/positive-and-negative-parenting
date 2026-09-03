@@ -24,6 +24,8 @@ format:
     keywords: ["parenting", "child development", "universals", "variation"]
 bibliography: positive-and-negative-parenting.bib
 csl: apa.csl
+citation:
+  url: https://agrogan1.github.io/
 from: markdown+emoji
 filters:
   - highlight-text
