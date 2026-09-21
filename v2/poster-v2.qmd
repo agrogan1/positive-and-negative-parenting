@@ -25,7 +25,7 @@ format:
     footer-emails: "agrogan@umich.edu"
     footer-color: "FFCB05"
     keywords: ["parenting", "child development", "universals", "variation"]
-bibliography: positive-and-negative-parenting.bib
+bibliography: poster-v2.bib
 csl: apa.csl
 citation:
   url: https://agrogan1.github.io/
