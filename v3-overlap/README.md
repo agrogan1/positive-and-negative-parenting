@@ -2,4 +2,4 @@
 
 $$\textcolor{purple}{\eta_{overlap}} = \int min[\textcolor{red}{f(x_1)}, \textcolor{blue}{g(x_2)}] dx$$
 
-![heuristic illustration of calculating overlap](overlap-heuristic.png)
+<img src="overlap-heuristic.png" width="50%">
