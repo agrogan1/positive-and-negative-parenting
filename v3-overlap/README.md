@@ -6,7 +6,7 @@ $$\text{child behavior outcome} = \beta_0 + \beta \text{parenting} + \Sigma \bet
 
 In the equation above, all of the error terms have the usual interpretations, but notably $u_{1j}$ quantifies the country specific differences in the degree to which parenting is associated with the child behavior outcome. 
 
-Thus $u_{1 \text{country 1}}$
+Thus $\textcolor{red}{u_{1 \text{country 1}}}$
 
 There are a number of both Bayesian and frequentist methods to obtain estimates of the distribution of these country specific random effects. 
 
