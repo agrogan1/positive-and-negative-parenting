@@ -2,7 +2,9 @@
 
 Consider the following multilevel model:
 
-$$\text{child behavior outcome} = \beta_0 + \beta \text{parenting} + \Sigma \beta \text{covariates} + u_0j + u_1j \times parenting + e_{ij}$$
+$$\text{child behavior outcome} = \beta_0 + \beta \text{parenting} + \Sigma \beta \text{covariates} + u_{0j} + u_{1j} \times \text{parenting} + e_{ij}$$
+
+In the equation above, all of the error terms have the usual interpretations, but notably $u_{1j}$ quantifies the country specific differences in the degree to which parenting is associated with the child behavior outcome. 
 
 $$\textcolor{purple}{\eta_{overlap}} = \int min[\textcolor{red}{f(x_1)}, \textcolor{blue}{g(x_2)}] dx$$
 
