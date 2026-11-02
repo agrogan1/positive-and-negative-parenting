@@ -1,0 +1,32 @@
+/* css styles */
+
+blockquote {
+  color: black;
+  border-left: 3px solid #FFCB05; 
+  padding: 0.5em 10px;
+}
+.blockquote { 
+  color: black;
+}
+a {
+  color: #2F65A7;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+/* Highlights only rows within the body of the table */
+/* W3Schools */
+tbody tr:hover {
+  background-color: #d6eeee;
+  cursor: pointer; /* Optional: indicates the row is interactive */
+}
+
+.line-break {
+  white-space: pre-line;
+}
