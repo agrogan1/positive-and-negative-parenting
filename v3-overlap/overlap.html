@@ -196,19 +196,22 @@ window.Quarto = {
 <section id="equations-and-calculations" class="level1" data-number="4">
 <h1 data-number="4"><span class="header-section-number">4</span> Equations and Calculations</h1>
 <p>Consider the following multilevel model:</p>
-<p><span class="math display">\[\text{child behavior outcome} = \beta_0 + \beta \text{parenting} + \Sigma \beta \text{covariates} + u_{0j} + u_{1j} \times \text{parenting} + e_{ij}\]</span></p>
-<p>In the equation above, all of the error terms have the usual interpretations, but notably <span class="math inline">\(u_{1j}\)</span> quantifies the country specific differences in the degree to which parenting is associated with the child behavior outcome.</p>
+<p><span id="eq-MLM"><span class="math display">\[\begin{aligned}
+&amp; \text{child behavior outcome} = \beta_0 + \beta \text{parenting} + \Sigma \beta \text{covariates} + \\
+&amp; u_{0j} + u_{1j} \times \text{parenting} + e_{ij}
+\end{aligned} \tag{1}\]</span></span></p>
+<p>In the equation above, all of the error terms have the usual interpretations, but notably, <span class="math inline">\(u_{1j}\)</span> quantifies the country specific differences in the degree to which parenting is associated with the child behavior outcome.</p>
 <p>Thus <span class="math inline">\(\textcolor{red}{u_{1 \text{country 1}}}\)</span> would provide information about the country specific association in country 1, while <span class="math inline">\(\textcolor{blue}{u_{1 \text{country 2}}}\)</span> would provide information about the country specific association in country 2.</p>
 <p>There are a number of both Bayesian and frequentist methods to obtain estimates of the distribution of these country specific random effects.</p>
 <p>After obtaining estimates of these country specific effects, one could estimate the amount of overlap, or similarity, in these country specific random effects using the R library <code>overlapping</code> <span class="citation" data-cites="Pastore2018 Pastore2019">(<a href="#ref-Pastore2018" role="doc-biblioref">Pastore, 2018</a>; <a href="#ref-Pastore2019" role="doc-biblioref">Pastore &amp; Calcagnì, 2019</a>)</span>, which employs the formula below <span class="citation" data-cites="Pastore2018 Pastore2019">(<a href="#ref-Pastore2018" role="doc-biblioref">Pastore, 2018</a>; <a href="#ref-Pastore2019" role="doc-biblioref">Pastore &amp; Calcagnì, 2019</a>)</span>:</p>
-<p><span class="math display">\[\textcolor{purple}{\eta_{overlap}} = \int min[\textcolor{red}{f(x_1)}, \textcolor{blue}{g(x_2)}] dx\]</span></p>
+<p><span id="eq-overlap"><span class="math display">\[\textcolor{purple}{\eta_{\text{overlap}}} = \int min[\textcolor{red}{f(x_1)}, \textcolor{blue}{g(x_2)}] dx \tag{2}\]</span></span></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="overlap-heuristic.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="heuristic diagram of overlap formula"><img src="overlap-heuristic.png" class="img-fluid figure-img" style="width:33.0%" alt="heuristic diagram of overlap formula"></a></p>
+<p><a href="overlap-heuristic.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="heuristic diagram of overlap formula"><img src="overlap-heuristic.png" class="img-fluid figure-img" style="width:50.0%" alt="heuristic diagram of overlap formula"></a></p>
 <figcaption>heuristic diagram of overlap formula</figcaption>
 </figure>
 </div>
-<p>This formula would provide an estimate of the similarity and difference in country specific relationships of parenting and child behavior outcomes.</p>
+<p><a href="#eq-overlap" class="quarto-xref">Equation&nbsp;2</a> would provide an estimate of the similarity and difference in country specific relationships of parenting and child behavior outcomes.</p>
 </section>
 <section id="preliminary-findings" class="level1" data-number="5">
 <h1 data-number="5"><span class="header-section-number">5</span> Preliminary Findings</h1>
