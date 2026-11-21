@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.30">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,17 +10,20 @@
 <meta name="author" content="Julie Ma">
 <meta name="author" content="Yoonsun Han">
 <meta name="author" content="Kaitlin Ward">
-<meta name="dcterms.date" content="2026-11-02">
+<meta name="dcterms.date" content="2026-11-21">
 
 <title>Same Same Different Different</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -54,20 +57,21 @@ div.csl-indent {
 <script src="overlap_files/libs/clipboard/clipboard.min.js"></script>
 <script src="overlap_files/libs/quarto-html/quarto.js" type="module"></script>
 <script src="overlap_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="overlap_files/libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="overlap_files/libs/quarto-html/popper.min.js"></script>
 <script src="overlap_files/libs/quarto-html/tippy.umd.min.js"></script>
 <script src="overlap_files/libs/quarto-html/anchor.min.js"></script>
 <link href="overlap_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="overlap_files/libs/quarto-html/quarto-syntax-highlighting-b6a8276bf55561bdbc268162d41bd1f7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="overlap_files/libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="overlap_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="overlap_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="overlap_files/libs/bootstrap/bootstrap-138a6193a3bd40baf1e627da441a4734.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="overlap_files/libs/bootstrap/bootstrap-7a1ba01e1618e08d8f307002997fc2d6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="overlap_files/libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="overlap_files/libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="overlap_files/libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -99,11 +103,11 @@ window.Quarto = {
 <link rel="stylesheet" href="overlap.css">
 </head>
 
-<body class="quarto-light">
+<body class="quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
 <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-  <nav id="TOC" role="doc-toc" class="toc-active">
+  <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
@@ -111,12 +115,13 @@ window.Quarto = {
   <li><a href="#highlighting-commonalities-may-promote-intergroup-attitudes-and-solidarity" id="toc-highlighting-commonalities-may-promote-intergroup-attitudes-and-solidarity" class="nav-link" data-scroll-target="#highlighting-commonalities-may-promote-intergroup-attitudes-and-solidarity"><span class="header-section-number">2</span> Highlighting Commonalities May Promote Intergroup Attitudes And Solidarity</a></li>
   <li><a href="#the-argument" id="toc-the-argument" class="nav-link" data-scroll-target="#the-argument"><span class="header-section-number">3</span> The Argument</a></li>
   <li><a href="#equations-and-calculations" id="toc-equations-and-calculations" class="nav-link" data-scroll-target="#equations-and-calculations"><span class="header-section-number">4</span> Equations and Calculations</a></li>
-  <li><a href="#preliminary-findings" id="toc-preliminary-findings" class="nav-link" data-scroll-target="#preliminary-findings"><span class="header-section-number">5</span> Preliminary Findings</a></li>
-  <li><a href="#why-is-this-important" id="toc-why-is-this-important" class="nav-link" data-scroll-target="#why-is-this-important"><span class="header-section-number">6</span> Why Is This Important?</a></li>
+  <li><a href="#overlap" id="toc-overlap" class="nav-link" data-scroll-target="#overlap"><span class="header-section-number">5</span> Overlap</a></li>
+  <li><a href="#preliminary-findings" id="toc-preliminary-findings" class="nav-link" data-scroll-target="#preliminary-findings"><span class="header-section-number">6</span> Preliminary Findings</a></li>
+  <li><a href="#why-is-this-important" id="toc-why-is-this-important" class="nav-link" data-scroll-target="#why-is-this-important"><span class="header-section-number">7</span> Why Is This Important?</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="overlap.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
 </div>
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content" tabindex="-1">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -141,7 +146,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 2, 2026</p>
+      <p class="date">November 21, 2026</p>
     </div>
   </div>
   
@@ -201,9 +206,12 @@ window.Quarto = {
 &amp; u_{0j} + u_{1j} \times \text{parenting} + e_{ij}
 \end{aligned} \tag{1}\]</span></span></p>
 <p>In the equation above, all of the error terms have the usual interpretations, but notably, <span class="math inline">\(u_{1j}\)</span> quantifies the country specific differences in the degree to which parenting is associated with the child behavior outcome.</p>
-<p>Thus <span class="math inline">\(\textcolor{red}{u_{1 \text{country 1}}}\)</span> would provide information about the country specific association in country 1, while <span class="math inline">\(\textcolor{blue}{u_{1 \text{country 2}}}\)</span> would provide information about the country specific association in country 2.</p>
+<p>Thus <span class="math inline">\(\textcolor{red}{u_{1 \text{country 1}}}\)</span> would provide information about the country specific association in <span class="light-content" style="color: #FF0000;">country 1</span>, while <span class="math inline">\(\textcolor{blue}{u_{1 \text{country 2}}}\)</span> would provide information about the country specific association in <span class="light-content" style="color: #0000FF;">country 2</span>.</p>
 <p>There are a number of both Bayesian and frequentist methods to obtain estimates of the distribution of these country specific random effects.</p>
-<p>After obtaining estimates of these country specific effects, one could estimate the amount of overlap, or similarity, in these country specific random effects using the R library <code>overlapping</code> <span class="citation" data-cites="Pastore2018 Pastore2019">(<a href="#ref-Pastore2018" role="doc-biblioref">Pastore, 2018</a>; <a href="#ref-Pastore2019" role="doc-biblioref">Pastore &amp; Calcagnì, 2019</a>)</span>, which employs the formula below <span class="citation" data-cites="Pastore2018 Pastore2019">(<a href="#ref-Pastore2018" role="doc-biblioref">Pastore, 2018</a>; <a href="#ref-Pastore2019" role="doc-biblioref">Pastore &amp; Calcagnì, 2019</a>)</span>:</p>
+</section>
+<section id="overlap" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Overlap</h1>
+<p>After obtaining estimates of these country specific effects, one could estimate the amount of overlap, or similarity, in these country specific random effects using the R library <code>overlapping</code> <span class="citation" data-cites="Pastore2018 Pastore2019">(<a href="#ref-Pastore2018" role="doc-biblioref">Pastore, 2018</a>; <a href="#ref-Pastore2019" role="doc-biblioref">Pastore &amp; Calcagnì, 2019</a>)</span>, which employs <a href="#eq-overlap" class="quarto-xref">Equation&nbsp;2</a>:</p>
 <p><span id="eq-overlap"><span class="math display">\[\textcolor{purple}{\eta_{\text{overlap}}} = \int min[\textcolor{red}{f(x_1)}, \textcolor{blue}{g(x_2)}] dx \tag{2}\]</span></span></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -211,10 +219,10 @@ window.Quarto = {
 <figcaption>heuristic diagram of overlap formula</figcaption>
 </figure>
 </div>
-<p><a href="#eq-overlap" class="quarto-xref">Equation&nbsp;2</a> would provide an estimate of the similarity and difference in country specific relationships of parenting and child behavior outcomes.</p>
+<p><a href="#eq-overlap" class="quarto-xref">Equation&nbsp;2</a> would thus provide an estimate of the similarity and difference in country specific relationships of parenting and child behavior outcomes.</p>
 </section>
-<section id="preliminary-findings" class="level1" data-number="5">
-<h1 data-number="5"><span class="header-section-number">5</span> Preliminary Findings</h1>
+<section id="preliminary-findings" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Preliminary Findings</h1>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="overlap-ggplot.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="preliminary findings"><img src="overlap-ggplot.png" class="img-fluid figure-img" style="width:50.0%" alt="preliminary findings"></a></p>
@@ -222,8 +230,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="why-is-this-important" class="level1" data-number="6">
-<h1 data-number="6"><span class="header-section-number">6</span> Why Is This Important?</h1>
+<section id="why-is-this-important" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Why Is This Important?</h1>
 <blockquote class="blockquote">
 <p>“The current times are seeing changes at an arguably unprecedented rate, and often much for the worse–with <span class="citation" data-cites="Ahenakew2025">Ahenakew et al. (<a href="#ref-Ahenakew2025" role="doc-biblioref">2025</a>)</span> describing this confluence of challenges as a ‘<span class="light-content" style="color: #FF0000;">polycrisis</span>’–including a failing response to climate change, capitulation to autocrats and divisive leaders, failures to adequately care for the poor and infirm, fear of immigrants and the Other, and many more. <span class="light-content" style="color: #FF0000;">Responding to all of these issues requires some vision of common humanity to unite and motivate us, while also requiring an approach sensitive to local conditions and needs…</span>” <span class="citation" data-cites="Lomas2026">(<a href="#ref-Lomas2026" role="doc-biblioref">Lomas, 2026</a>)</span></p>
 </blockquote>
@@ -249,16 +257,16 @@ Pastore, M. (2018). Overlapping: A r package for estimating overlapping in empir
 <div id="ref-Pastore2019" class="csl-entry" role="listitem">
 Pastore, M., &amp; Calcagnì, A. (2019). Measuring distribution similarities between samples: A distribution-free overlapping index. <em>Frontiers in Psychology</em>, <em>10</em>, 1089. <a href="https://doi.org/10.3389/fpsyg.2019.01089">https://doi.org/10.3389/fpsyg.2019.01089</a>
 </div>
-</div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{grogan-kaylor2026,
+</div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><div class="code-copy-outer-scaffold"><pre class="sourceCode quarto-appendix-bibtex code-with-copy"><code class="sourceCode bibtex">@online{grogan-kaylor2026,
   author = {Grogan-Kaylor, Andy and Ma, Julie and Han, Yoonsun and Ward,
     Kaitlin},
   title = {Same {Same} {Different} {Different}},
-  date = {2026-11-02},
+  date = {2026-11-21},
   url = {https://agrogan1.github.io/},
   langid = {en}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-grogan-kaylor2026" class="csl-entry quarto-appendix-citeas" role="listitem">
-Grogan-Kaylor, A., Ma, J., Han, Y., &amp; Ward, K. (2026, November 2).
+</code></pre><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-grogan-kaylor2026" class="csl-entry quarto-appendix-citeas" role="listitem">
+Grogan-Kaylor, A., Ma, J., Han, Y., &amp; Ward, K. (2026, November 21).
 <em>Same Same Different Different</em>. <a href="https://agrogan1.github.io/">https://agrogan1.github.io/</a>
 </div></div></section></div></main>
 <!-- /main column -->
@@ -340,7 +348,8 @@ Grogan-Kaylor, A., Ma, J., Han, Y., &amp; Ward, K. (2026, November 2).
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -349,8 +358,69 @@ Grogan-Kaylor, A., Ma, J., Han, Y., &amp; Ward, K. (2026, November 2).
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -364,6 +434,7 @@ Grogan-Kaylor, A., Ma, J., Han, Y., &amp; Ward, K. (2026, November 2).
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -526,44 +597,54 @@ Grogan-Kaylor, A., Ma, J., Han, Y., &amp; Ward, K. (2026, November 2).
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -661,6 +742,9 @@ Grogan-Kaylor, A., Ma, J., Han, Y., &amp; Ward, K. (2026, November 2).
       }
     }
   });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
   </script>
 </div> <!-- /content -->
 <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
