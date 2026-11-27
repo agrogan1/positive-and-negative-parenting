@@ -24,6 +24,7 @@ citation:
   url: https://agrogan1.github.io/
 filters:
   - highlight-text
+  - mobile-toc
 ---
 
 # Are We Similar? Are We Different?
